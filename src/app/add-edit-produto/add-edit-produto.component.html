@@ -1,0 +1,31 @@
+<div mat-dialog-title>Produto</div>
+<form [formGroup]="produtoForm" (ngSubmit)="onProdutoSubmit()">
+  <div mat-dialog-content class="content">
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Produto</mat-label>
+        <input matInput placeholder="Ex. Pizza" type="text" formControlName="nomeProduto"/>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Quantidade</mat-label>
+        <input matInput placeholder="Ex. 1" type="number" formControlName="quantidade"/>
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Preço</mat-label>
+        <input matInput placeholder="Ex. 1.50" type="number" formControlName="preco"/>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Data de validade</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="dataValidade">
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    </div>
+  </div>
+  <div mat-dialog-actions class="action">
+    <button mat-raised-button color="warn" type="button" [mat-dialog-close]="false">Fechar</button>
+    <button mat-raised-button color="primary" type="submit">{{data ? 'Editar' : 'Salvar'}}</button>
+  </div>
+</form>

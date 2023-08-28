@@ -1,0 +1,11 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.tabela{
+  padding: 1%;
+  margin: 0 auto;
+
+}
+mat-form-field{
+  width: 100%;
+}

@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "name": "typicode"
+    }
+  ],
+  "produtos": [
+    {
+      "nomeProduto": "Manga",
+      "quantidade": 10,
+      "preco": 3,
+      "dataValidade": "2023-08-17T23:00:00.000Z",
+      "id": 2
+    },
+    {
+      "nomeProduto": "Pizza",
+      "quantidade": 1,
+      "preco": 1.5,
+      "dataValidade": "2023-08-30T23:00:00.000Z",
+      "id": 3
+    },
+    {
+      "nomeProduto": "Fermento",
+      "quantidade": 1,
+      "preco": 2,
+      "dataValidade": "2023-08-24T23:00:00.000Z",
+      "id": 4
+    },
+    {
+      "nomeProduto": "Banana",
+      "quantidade": 1,
+      "preco": 1,
+      "dataValidade": "2023-08-30T23:00:00.000Z",
+      "id": 5
+    }
+  ]
+}
