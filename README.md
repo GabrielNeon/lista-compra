@@ -1,4 +1,6 @@
 # ListaCompraFrontEnd
+Este respositorio faz parte de uma serie de videos no youtube que demostram as tecnologias envolvidas:
+https://www.youtube.com/@gbNeontechblck/videos
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
